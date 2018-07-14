@@ -1,6 +1,8 @@
 # Performance-Analysis-of-TCP-Variants-and-Routing-Protocols-Using-NS2-Simulations
 The project is based on the implementation of `AODV`, `DSR` and `DSDV` protocols along with TCP agents such as Reno, New Reno, Fack, Sack1, and Linux.The goal of the project is to find the correct combination of routing protocol and TCP variant. Routing in an Ad-hoc network is a challenging task because the source and destination nodes are mobile and thus routing decisions are to be changed dynamically when link failure or packet delay is encountered. As TCP protocols were initially designed for wired networks, so they are not able to deliver optimized performance, in the case of ad-hoc networks. For ensuring a reliable transfer, various variants of TCP must be used such as `TCP-Reno`, `TCP-Vegas`, `TCP-Westwood`, `TCP-New Reno`, `TCP-Tahoe`, `TCP-Sack` etc. Mobile ad-hoc network is a decentralized network consisting of various mobile nodes. 
 
+## Refer to the project report pdf file (project report file.pdf), available on the root folder for more details 
+
 #  Getting Started
 These steps will help you to run the project on your local machine for testing purposes. The project is tested on Ubuntu 16.04 LTS and MAC operating system.
 

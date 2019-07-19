@@ -8,13 +8,13 @@ These steps will help you to run the project on your local machine for testing p
 
 # Prerequisites
 ## Ubuntu OS 
- 1. NS 2.35
+  1. NS 2.35
   2. Gnuplot build with X-11 or qt5
   3. Perl for running file for additional parameters graph file (optional)
 
 ## For Mac
-1. Latest Xcode
-2. NS 2.35
+ 1. Latest Xcode
+ 2. NS 2.35
  3. Gnuplot with Qt
  4. Xquartz
  5. Perl for running file for additional parameters graph file (optional)
@@ -22,16 +22,16 @@ These steps will help you to run the project on your local machine for testing p
 # Installing 
 You need to install all the required pre-requisites and set their environment path respectively. then
 
-1. First of all goto project folder in a terminal by` cd` project command
-2. Type ns start_program.tcl
-3. Provide the input on the screen as required for example 1 for AODV and then  1 for TCP/RENO
+1. First of all go to project folder in a terminal by `cd` project command
+2. Type `ns start_program.tcl`
+3. Provide the input on the screen as required for example 1 for `AODV` and then  1 for `TCP/RENO`
 4. The resulting files will be generated in folders pdr_files, delay_files, nam_files
 5. Change directory to pdr_files or delay_files to generate files
-6. Type ns rp_graph_generator_delays.tcl for graphs plotting of same Routing protocol with different TCP agents. if an error comes then make a folder named `rp` in delay_files and then "graphs" in `rp`
-7. Type ns tcp_graph_generator_delays.tcl for graphs plotting of same TCP protocol with different routing protocols. if the error comes then make a folder named `TCP` in delay_files and then "graphs" in Tcl folder.
+6. Type `ns rp_graph_generator_delays.tcl` for graphs plotting of same Routing protocol with different TCP agents. If an error comes then make a folder named `rp` in delay_files and then "graphs" in `rp`
+7. Type `ns tcp_graph_generator_delays.tcl` for graphs plotting of same TCP protocol with different routing protocols. If the error comes then make a folder named `TCP` in delay_files and then "graphs" in Tcl folder.
 9. Change directory to pdr_files
-8. Type ns rp_graph_generator_pdr.tcl for graphs plotting of same Routing protocol with different TCP agents for calculating `pdr`. if an error comes then make a folder named `rp` in pdr_files and then graphs in `rp`
-9. Type ns tcl_graph_generator_pdr.tcl for graphs plotting of same TCP protocol with different routing protocols for calculating `pdr`. if an error comes then make a folder named `rp` in pdr_files and then "graphs" in `rp`
+8. Type `ns rp_graph_generator_pdr.tcl` for graphs plotting of same Routing protocol with different TCP agents for calculating `pdr`. if an error comes then make a folder named `rp` in pdr_files and then graphs in `rp`
+9. Type `ns tcl_graph_generator_pdr.tcl` for graphs plotting of same TCP protocol with different routing protocols for calculating `pdr`. if an error comes then make a folder named `rp` in pdr_files and then "graphs" in `rp`
 
 # Built With 
 Network Simulator 2 - The network simulator used
@@ -42,7 +42,6 @@ AWK - Scripting language for manipulating and analyzing data
 
 #  Authors 
 Amarjit Dhillon
-
 Ranjit Singh Saini
 
 #  Future Work 
